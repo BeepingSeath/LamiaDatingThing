@@ -1,0 +1,50 @@
+body {
+    background: #6d1653;
+    font-family: arial;
+    text-align: center;
+    color: rgb(230, 230, 230);
+}
+
+#wrapper {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#wrapper div, #wrapper ul {
+    width: 50%;
+    max-width: 300px;
+}
+
+ul {
+    padding: 0px;
+}
+
+#title {
+    font-size: 20px;
+    font-weight: bold;
+    background: rgb(100, 100, 100);
+    padding: 10px;
+}
+
+.alternative {
+    list-style-type: none;
+    margin-bottom: 4px;
+    padding: 10px;
+    background: rgb(100, 100, 100);
+}
+
+.alternative:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#result {
+    font-weight: bold;
+}
+
+#score, #result {
+    color: rgb(230, 230, 230);
+}
