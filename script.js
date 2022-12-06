@@ -107,7 +107,12 @@ let app = {
 
     result: function() {
         let winDiv = document.getElementById('result');
+        if (this.win == true){
         winDiv.textContent = `You have succesfully partnered with the Lamia!`
+        }
+        else {
+            winDiv.textContent = `You are a failure`
+        }
     }
 };
 app.start();
