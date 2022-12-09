@@ -1,24 +1,21 @@
-let question = {
-    title: 'Arigatou',
-    alternatives: ['Hello', 'Goodbye', 'Here you go', 'Thank you'],
-    correctAnswer: 3
-};
-
 let questions = [
     {
-        title: 'Arigatou',
-        alternatives: ['Hello', 'Goodbye', 'Here you go', 'Thank you'],
-        correctAnswer: 3
+        title: 'She sits on a branch thinking, what do you say?',
+        alternatives: ['Hello', '(Say nothing)', 'Eeeew a snakeperson', 'Thank you'],
+        correctAnswer: 3,
+        wrongAnswer: 2
     },
     {
         title: 'What is "kanelkaka"?',
         alternatives: ['A pastry', 'A brand', 'A car', 'An Ikea item'],
-        correctAnswer: 0
+        correctAnswer: 0,
+        wrongAnswer: 2
     },
     {
         title: 'What is Elder Scrolls IV named',
         alternatives: ['Daggerfall', 'Redfall', 'Oblivion', 'Skyrim'],
-        correctAnswer: 2
+        correctAnswer: 2,
+        wrongAnswer: 2
     },
 ]
 
@@ -65,8 +62,9 @@ let app = {
             console.log('correct');
             this.score++;
         }
-        else {
-            console.log('incorrect');
+        else if (currQuestion.wrongAnswer == userSelected){
+            console.log("deathly wrong");
+            this.Death();
         }
 
         this.updateStats();
@@ -103,6 +101,10 @@ let app = {
         else {
             this.win = false;
         }
+    },
+
+    Death: function() {
+        window.location.replace("Death.html")
     },
 
     result: function() {
