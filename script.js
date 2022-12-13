@@ -7,14 +7,14 @@ let questions = [
     },
     {
         title: 'Hello, I\'m doing pretty okay',
-        alternatives: ['Me too, What are you reading?', 'Oh, that\'s not good', 'I also am doing pretty okay', 'I love lamia'],
+        alternatives: ['Me too, What are you writing?', 'Oh, that\'s not good', 'I also am doing pretty okay', 'I love lamia'],
         correctAnswer: 0,
         wrongAnswer: 1
     },
     {
-        title: 'What is Elder Scrolls IV named',
-        alternatives: ['Daggerfall', 'Redfall', 'Oblivion', 'Skyrim'],
-        correctAnswer: 2,
+        title: 'Do you want to be my partner',
+        alternatives: ['no', 'Of course', 'Why would I ever want to be partnered with a snake', 'lul'],
+        correctAnswer: 1,
         wrongAnswer: 2
     },
 ]
