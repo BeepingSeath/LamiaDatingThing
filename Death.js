@@ -1,3 +1,3 @@
 btn.addEventListener('click', function(){
-    console.log('Clicked!');
+    window.location.replace("index.html")
   });

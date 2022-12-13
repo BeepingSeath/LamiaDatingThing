@@ -1,7 +1,7 @@
 let questions = [
     {
         title: 'She sits on a branch thinking, what do you say?',
-        alternatives: ['Hello', '(Say nothing)', 'Eeeew a snakeperson', 'Thank you'],
+        alternatives: ['Hello', '(Say nothing)', 'Eeeew a snakeperson', 'Hello, how are you doing?'],
         correctAnswer: 3,
         wrongAnswer: 2
     },

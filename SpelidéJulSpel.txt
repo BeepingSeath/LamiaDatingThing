@@ -1,0 +1,10 @@
+Christmas, Arctic , Romance, Lamia
+
+Planering: 
+47 Fre: Kaboom Tutorial
+48 Tis: JS Quiz tutorial, Skapade lite av en quiz. 
+      Fre: Mer JS Quiz Tutorial och avklarande av den.
+49 Tis: Jobbade på mitt eget spel och la till vinn funktion.
+49 Fre: Försökte skapa en bild men gav upp eftersom det var för krångligt. La sedan till en death funktion
+
+50 Tis: Planen är att programmera knappen i death så man kan komma tillbaka till spelet. Ska även göra mer av konversationen man har med Lamian.
