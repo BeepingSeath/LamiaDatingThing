@@ -6,10 +6,10 @@ let questions = [
         wrongAnswer: 2
     },
     {
-        title: 'What is "kanelkaka"?',
-        alternatives: ['A pastry', 'A brand', 'A car', 'An Ikea item'],
+        title: 'Hello, I\'m doing pretty okay',
+        alternatives: ['Me too, What are you reading?', 'Oh, that\'s not good', 'I also am doing pretty okay', 'I love lamia'],
         correctAnswer: 0,
-        wrongAnswer: 2
+        wrongAnswer: 1
     },
     {
         title: 'What is Elder Scrolls IV named',

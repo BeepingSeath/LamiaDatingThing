@@ -8,3 +8,4 @@ Planering:
 49 Fre: Försökte skapa en bild men gav upp eftersom det var för krångligt. La sedan till en death funktion
 
 50 Tis: Planen är att programmera knappen i death så man kan komma tillbaka till spelet. Ska även göra mer av konversationen man har med Lamian.
+   Tis: Jag har skrivit Death kod och hostat den på Github Pages. 
