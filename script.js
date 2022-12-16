@@ -7,13 +7,13 @@ let questions = [
     },
     {
         title: 'Hello, I\'m doing pretty okay',
-        alternatives: ['Me too, What are you writing?', 'Oh, that\'s not good', 'I also am doing pretty okay', 'I love lamia'],
+        alternatives: ['Me too, What are you thinking about?', 'Oh, that\'s not good', 'I also am doing pretty okay', 'I love lamia'],
         correctAnswer: 0,
         wrongAnswer: 1
     },
     {
-        title: 'Do you want to be my partner',
-        alternatives: ['no', 'Of course', 'Why would I ever want to be partnered with a snake', 'lul'],
+        title: 'I\m looking for a partner, you wanna go on a date?',
+        alternatives: ['no', 'Of course', 'Why would I ever want to date a snake?!?', 'lul'],
         correctAnswer: 1,
         wrongAnswer: 2
     },
@@ -27,6 +27,9 @@ let app = {
         this.score = 0;
 
         this.win = false;
+
+        const bild = document.querySelector('#Lamia');
+            bild.classList.toggle('hidden');
 
         let alts = document.querySelectorAll('.alternative');
 
@@ -110,7 +113,12 @@ let app = {
     result: function() {
         let winDiv = document.getElementById('result');
         if (this.win == true){
+            const bild = document.querySelector('#Lamia');
+            bild.classList.toggle('hidden');
+            const bildWin = document.querySelector('#LamiaWin');
+            bildWin.classList.toggle('hidden');
         winDiv.textContent = `You have succesfully partnered with the Lamia!`
+        
         }
         else {
             winDiv.textContent = `You are a failure`

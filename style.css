@@ -58,3 +58,6 @@ ul {
 #score, #result {
     color: rgb(230, 230, 230);
 }
+.hidden {
+    content-visibility: hidden;
+}
