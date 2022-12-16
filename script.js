@@ -121,11 +121,20 @@ let app = {
         
         }
         else {
+            const bild = document.querySelector('#Lamia');
+            bild.classList.toggle('hidden');
+            const bildUnint = document.querySelector('#LamiaUnint');
+            bildUnint.classList.toggle('hidden');
+            const UnintButton = document.querySelector('#UnintButton');
+            UnintButton.classList.toggle('hidden');
             winDiv.textContent = `You are a failure`
         }
     }
 };
 app.start();
+btn.addEventListener('click', function(){
+    window.location.replace("index.html")
+  });
 
 
 // {
